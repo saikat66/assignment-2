@@ -13,6 +13,11 @@ body {
     justify-content: space-between;
 }
 
+.site-title h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .menu-items {
     display: flex;
     align-items: center;
@@ -34,3 +39,53 @@ body {
 }
 
 /* Header bar styles end */
+
+
+/* Main section part start */
+
+.main-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    grid-row-gap: 130px;
+    justify-content: space-between;
+}
+
+.main-section-items {
+    width: 580px;
+    height: 270px;
+}
+
+.main-section-items h1 {
+    height: 140px;
+    line-height: 70px;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.main-section-items p {
+    font-size: 16px;
+    width: 505px;
+    margin-bottom: 35px;
+}
+
+.main-section-items a {
+    height: 45px;
+    text-decoration: none;
+    background-color: rgb(233, 61, 61);
+    color: white;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+
+.main-section-items a .bi {
+    padding-left: 10px;
+}
+
+.main-section-image img {
+    width: 440px;
+    height: 400px;
+}
+
+/* Main section part end */
